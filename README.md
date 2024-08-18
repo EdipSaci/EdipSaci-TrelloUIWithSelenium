@@ -169,3 +169,6 @@ This project structure releases 3 different report. We specify under the `plugin
 After 116 version of Chrome, WebDriverManager doesn't support this one. In order to handle this problem, download newest `chromedriver.exe` and put it in the drivers package.
 
 
+#### 11. Run Test Scripts
+
+Open Terminal and write following command --> mvn clean test
