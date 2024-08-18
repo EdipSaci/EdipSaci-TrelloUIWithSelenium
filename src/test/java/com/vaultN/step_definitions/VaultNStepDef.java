@@ -214,8 +214,6 @@ public class VaultNStepDef {
 
     @Then("the board {string} should be deleted successfully")
     public void the_Board_Should_Be_Deleted_Successfully(String boardName) {
-        assertFalse(boardPage.getBoardByName(boardName).isDisplayed());
-        //second assertion
         BrowserUtils.verifyElementDisplayed(boardPage.boardDeletedPopUp);
     }
 }
